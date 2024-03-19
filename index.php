@@ -16,7 +16,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <title>Welcome  <?php $_SESSION['username']?>  </title>
+    <title>Welcome</title>
 </head>
 
 <body>
@@ -69,7 +69,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                 <div class="left">
                     <h1>Dashboard</h1>
                     <ul class="breadcrumb">                       
-                        <li><a href="#" class="active">Glance</a></li>
+                        <li><a href="#" class="active">Analytics</a></li>
                     </ul>
                 </div>
                 <a href="https://drive.google.com/drive/folders/19dXw0TU5wZQp3mB22KGj1Iw6WLxnKlli?usp=sharing" class="report">
@@ -155,7 +155,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                             <tr>
                                 <th>Project</th>
                                 <th>Start</th>
-                                <th>Duration</th>
+                                <th>Duration(d)</th>
                                 <th>Status</th>
                                 <th>Manpower</th>
                             </tr>

@@ -56,11 +56,8 @@ else{
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
@@ -73,7 +70,6 @@ else{
 <body>
  
 
-  <!-- Edit Modal -->
   <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -134,10 +130,10 @@ else{
           <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="about.html">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="contact.html">Contact Us</a>
         </li>
 
       </ul>
@@ -186,7 +182,7 @@ else{
         <input type="text" class="form-control" id="nameEdit" name="nameEdit" aria-describedby="emailHelp">
         <label for="date">Start Date</label>
         <input type="date" class="form-control" id="dateEdit" name="dateEdit" aria-describedby="emailHelp">
-        <label for="dur">Duration</label>
+        <label for="dur">Duration(Days)</label>
         <input type="number" class="form-control" id="durEdit" name="durEdit" aria-describedby="emailHelp">
         <label for="stat">Status</label>
         <select class="form-control" id="statEdit" name="statEdit" aria-describedby="emailHelp">
@@ -238,8 +234,7 @@ else{
     </table>
   </div>
   <hr>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
