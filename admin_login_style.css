@@ -39,7 +39,7 @@ video{
     height: 640px;
     border-radius: 12px;
     padding: 20px 30px 120px;
-    background: #303f9f;
+    background: #10778c;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     opacity: 35%;
@@ -213,7 +213,7 @@ form .btn{
 }
 
 .login-section .btn{
-    background: #303f9f;
+    background: #10778c;
     color: #fff;
     border: none;
 }
