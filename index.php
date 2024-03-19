@@ -21,7 +21,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
 
 <body>
 
-    <!-- Sidebar -->
+  
     <div class="sidebar">
         <a href="#" class="logo">
             <i class='bx bxl-tailwind-css'></i>
@@ -43,11 +43,11 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
             </li>
         </ul>
     </div>
-    <!-- End of Sidebar -->
+   
 
-    <!-- Main Content -->
+   
     <div class="content">
-        <!-- Navbar -->
+      
         <nav>
             <i class='bx bx-menu'></i>
             <form action="#">
@@ -61,8 +61,6 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                 <img src="images/logo.png">
             </a>
         </nav>
-
-        <!-- End of Navbar -->
 
         <main>
             <div class="header">
@@ -78,7 +76,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                 </a>
             </div>
 
-            <!-- Insights -->
+       
             <ul class="insights">
                 <li>
                     <i class='bx bx-calendar-check'></i>
@@ -137,7 +135,6 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     </span>
                 </li>
             </ul>
-            <!-- End of Insights -->
 
             <div class="bottom-data">
                 <div class="orders">
@@ -180,7 +177,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     </table>
                 </div>
 
-                <!-- Reminders -->
+             
                 <div class="reminders">
                     <div class="header">
                         <a style="text-decoration: none; color: black;" href="Reminders.php">                     
@@ -214,7 +211,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     </ul>
                 </div>
 
-                <!-- End of Reminders-->
+              
 
             </div>
 
