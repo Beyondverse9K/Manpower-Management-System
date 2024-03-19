@@ -117,7 +117,7 @@ if(isset($_POST["alogin"])){
                 <a href="https://docs.google.com/spreadsheets/d/1vEKCEKneoDvZX6z3XdLx-JuawOShMgJ4woo-5UYIF7c/edit#gid=0">
                     <button><i class='bx bxl-google'></i> Google </button>
                 </a>
-                <a href="https://github.com/Beyondverse9K/SEP">
+                <a href="https://github.com/Beyondverse9K/Manpower-Management-System">
                     <button><i class='bx bxl-github'></i> Github </button>
                 </a>
             </div>
@@ -147,7 +147,7 @@ if(isset($_POST["alogin"])){
                 <a href="https://docs.google.com/spreadsheets/d/1vEKCEKneoDvZX6z3XdLx-JuawOShMgJ4woo-5UYIF7c/edit#gid=0">
                     <button><i class='bx bxl-google'></i> Google </button>
                 </a>
-                <a href="https://github.com/Beyondverse9K/SEP">
+                <a href="https://github.com/Beyondverse9K/Manpower-Management-System">
                     <button><i class='bx bxl-github'></i> Github </button>
                 </a>
             </div>
